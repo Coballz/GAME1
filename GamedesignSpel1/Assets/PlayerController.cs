@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour {
 
 	private Rigidbody rb;
 	private Quaternion cameraRotation = Quaternion.Euler(0, 45, 0);
-	private int score = 0;
+	public int score = 0;
 
 	private GameObject camera;
 	public float cameraHeightOffset = 2.0f;
